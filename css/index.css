@@ -1,0 +1,58 @@
+body {
+	background-color: #10121c;
+}
+
+.bg-leaves {
+	background-image: url("../assets/images/abstract-4452537.jpg");
+	background-repeat: none;
+}
+
+.img-desk-fornow {
+	size: 600, 387;
+}
+
+.lightgray {
+	color: #c6ccd5;
+}
+
+.navbarx {
+	background-color: rgba(33, 37, 41, 0.05);
+}
+
+.text-white-80 {
+  color: rgba(205, 235, 225, 0.7) !important;
+}
+
+@media screen and (width <= 640px) {
+	.bg-leaves {
+		background-size: 1098px, 732px;
+	}
+}
+
+@media screen and (width > 991px) {
+	.bg-leaves {
+		background-size: 1098px, 732px;
+	}
+
+	.navbarx {
+		background-color: rgba(33, 37, 41, 0.05);
+		transition: background-color 0.5s ease-in-out;
+	}
+
+	.navbarx:hover {
+		background-color: rgba(33, 37, 41, 1);
+		transition: background-color 0.5s ease-in-out;
+	}
+}
+
+@media screen and (width < 846px) and (width > 640px) {
+	.bg-leaves {
+		background-size: 150%, 100%;
+	}
+}
+
+@media screen and (width >= 846px) {
+	.bg-leaves {
+		background-size: 100%, 66.67%;
+	}
+}
